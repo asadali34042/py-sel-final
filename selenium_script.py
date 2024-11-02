@@ -17,13 +17,6 @@ driver = webdriver.Chrome(options=chrome_options)
 
 # List of URLs to process
 urls = [
-"https://gdmirrorbot.nl/file/iti0k07",
-"https://gdmirrorbot.nl/file/ocz5x20",
-"https://gdmirrorbot.nl/file/h3g62au",
-"https://gdmirrorbot.nl/file/zrz93c7",
-"https://gdmirrorbot.nl/file/zte8yz4",
-"https://gdmirrorbot.nl/file/b46mueq",
-"https://gdmirrorbot.nl/file/oj2out6",
 "https://gdmirrorbot.nl/file/eap0r23",
 "https://gdmirrorbot.nl/file/ep1mhkk",
 "https://gdmirrorbot.nl/file/vopgk9z",
@@ -419,8 +412,8 @@ def process_link(url):
 # Loop through each URL and process with a 1-minute delay
 for url in urls:
     process_link(url)
-    print("Waiting for 1 minute before proceeding to the next URL...")
-    time.sleep(60)  # Wait for 1 minute
+    print("Waiting for 30 sec before proceeding to the next URL...")
+    time.sleep(30)  # Wait for 30 sec
 
 # Close the WebDriver
 print("Closing the WebDriver...")
