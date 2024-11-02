@@ -17,7 +17,6 @@ driver = webdriver.Chrome(options=chrome_options)
 
 # List of URLs to process
 urls = [
-    urls = [
 "https://gdmirrorbot.nl/file/iti0k07",
 "https://gdmirrorbot.nl/file/ocz5x20",
 "https://gdmirrorbot.nl/file/h3g62au",
