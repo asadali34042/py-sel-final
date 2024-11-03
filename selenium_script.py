@@ -17,60 +17,6 @@ driver = webdriver.Chrome(options=chrome_options)
 
 # List of URLs to process
 urls = [
-"https://gdmirrorbot.nl/file/xdujc7l",
-"https://gdmirrorbot.nl/file/l4a6vm5",
-"https://gdmirrorbot.nl/file/q3sfzh4",
-"https://gdmirrorbot.nl/file/mhm4siz",
-"https://gdmirrorbot.nl/file/o6se33i",
-"https://gdmirrorbot.nl/file/b6ueskj",
-"https://gdmirrorbot.nl/file/x6apwcn",
-"https://gdmirrorbot.nl/file/ud7mud3",
-"https://gdmirrorbot.nl/file/udpr1dg",
-"https://gdmirrorbot.nl/file/ezq9k97",
-"https://gdmirrorbot.nl/file/z08vsb5",
-"https://gdmirrorbot.nl/file/u5bgoaa",
-"https://gdmirrorbot.nl/file/xzwjq9g",
-"https://gdmirrorbot.nl/file/py9xo41",
-"https://gdmirrorbot.nl/file/m99bmvr",
-"https://gdmirrorbot.nl/file/ntrr155",
-"https://gdmirrorbot.nl/file/d0fl0g7",
-"https://gdmirrorbot.nl/file/mvtml72",
-"https://gdmirrorbot.nl/file/l50eort",
-"https://gdmirrorbot.nl/file/x6bk597",
-"https://gdmirrorbot.nl/file/bnei8mn",
-"https://gdmirrorbot.nl/file/tenes69",
-"https://gdmirrorbot.nl/file/nusjlky",
-"https://gdmirrorbot.nl/file/m2vsqzm",
-"https://gdmirrorbot.nl/file/wurxzdx",
-"https://gdmirrorbot.nl/file/hay93gs",
-"https://gdmirrorbot.nl/file/gfq2088",
-"https://gdmirrorbot.nl/file/aj0io4h",
-"https://gdmirrorbot.nl/file/hit58w4",
-"https://gdmirrorbot.nl/file/zbpnx3s",
-"https://gdmirrorbot.nl/file/bnd0a1h",
-"https://gdmirrorbot.nl/file/xg9maa6",
-"https://gdmirrorbot.nl/file/sk96o17",
-"https://gdmirrorbot.nl/file/xu23bko",
-"https://gdmirrorbot.nl/file/ei3qjr3",
-"https://gdmirrorbot.nl/file/l6bos6n",
-"https://gdmirrorbot.nl/file/kswc6ki",
-"https://gdmirrorbot.nl/file/tw50rij",
-"https://gdmirrorbot.nl/file/ckda17n",
-"https://gdmirrorbot.nl/file/n999skx",
-"https://gdmirrorbot.nl/file/s3wxjjf",
-"https://gdmirrorbot.nl/file/u1kq1kt",
-"https://gdmirrorbot.nl/file/tu1ti5z",
-"https://gdmirrorbot.nl/file/ydf6j3f",
-"https://gdmirrorbot.nl/file/axarjlq",
-"https://gdmirrorbot.nl/file/bnsmfwq",
-"https://gdmirrorbot.nl/file/xkkxjt1",
-"https://gdmirrorbot.nl/file/m2oh0wr",
-"https://gdmirrorbot.nl/file/wqzhoem",
-"https://gdmirrorbot.nl/file/p4s6mvy",
-"https://gdmirrorbot.nl/file/ci8hik3",
-"https://gdmirrorbot.nl/file/lftcu7z",
-"https://gdmirrorbot.nl/file/sv4ikhm",
-"https://gdmirrorbot.nl/file/zwv3msf",
 "https://gdmirrorbot.nl/file/pkdyn5x",
 "https://gdmirrorbot.nl/file/uhl2po5",
 "https://gdmirrorbot.nl/file/bysqw2n",
@@ -3953,8 +3899,8 @@ def process_link(url):
 # Loop through each URL and process with a 1-minute delay
 for url in urls:
     process_link(url)
-    print("Waiting for 75 sec before proceeding to the next URL...")
-    time.sleep(75)  # Wait for 30 sec
+    print("Waiting for 55 sec before proceeding to the next URL...")
+    time.sleep(55)  # Wait for 30 sec
 
 # Close the WebDriver
 print("Closing the WebDriver...")
