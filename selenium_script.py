@@ -1129,8 +1129,8 @@ def process_link(url):
 # Loop through each URL and process with a 1-minute delay
 for url in urls:
     process_link(url)
-    print("Waiting for 60 sec before proceeding to the next URL...")
-    time.sleep(60)  # Wait for 30 sec
+    print("Waiting for 120 sec before proceeding to the next URL...")
+    time.sleep(120)  # Wait for 30 sec
 
 # Close the WebDriver
 print("Closing the WebDriver...")
